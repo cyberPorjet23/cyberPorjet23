@@ -19,7 +19,7 @@
 
 1. Clone the repository:
 
-   git clone https://github.com/cyberProjet23/wifipentest.git
+   git clone https://github.com/cyberPorjet23/wifipentest.git
           
                              ENTER cmd
    cd wifipentest
