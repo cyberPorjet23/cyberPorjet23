@@ -32,5 +32,25 @@
 
    python3 wifi exploit.py
 
+
+                              Usage exp
+  
+                        Capture Handshake:
+
+   python wifipentest.py capture-handshake --iface wlan0mon --ap-mac AA:BB:CC:DD:EE:FF --target-mac 11:22:33:44:55:66 --channel 6
+   
+                        Capture PMKID:
+
+
+   python wifipentest.py capture-pmkid --iface wlan0mon
+
+                       Crack Handshake:
+
+   python wifipentest.py crack-handshake --handshake capture.cap --wordlist rockyou.txt
+
+                         Crack PMKID
+                         
+   python wifipentest.py crack-pmkid --pmkid pmkid.pcapng --wordlist rockyou.txt
+
             
             I love YOU BORTHERS ❤️❤️❤️❤️
